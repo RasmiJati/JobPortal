@@ -28,7 +28,7 @@ namespace JobPortal
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Guest}/{action=Home}/{id?}");
 
             app.Run();
         }
